@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,700&family=Ubuntu:ital@1&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?city,buildings,landscape");
+}
+
+.card{
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #06b7e379;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px rgba(22, 2, 2, 0.5);
+    padding: 2em;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search button{
+    margin: 1rem;
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    padding-left: 0.4em;
+    padding-top: 0.3em;
+}
+
+.search .search-bar{
+    border: none;
+    outline: none;
+    padding: 1em;
+    border-radius: 18px;
+    background-color: #433d3d1f;
+    color: black;
+    font-family: sans-serif;
+    font-size: 120%;
+    width: 100%;
+    font-weight: bold;
+}
+/*placeholder* of search bar color change*/
+::-webkit-input-placeholder {
+    color: rgba(230, 217, 217, 0.644);
+}
